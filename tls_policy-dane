@@ -1,7 +1,8 @@
-# http://www.cs-ware.de/blog/archives/175
+# Author http://www.cs-ware.de/blog/archives/175
 #
 # CC-by-sa
 #
+
 # members of email made in germany
 email.de										secure match=.web.de
 freenet.de										secure match=.freenet.de
@@ -204,20 +205,24 @@ hs-hannover.de									secure match=.fh-hannover.de:.hs-hannover.de
 uos.de											encrypt
 uni-osnabrueck.de								encrypt
 .tu-clausthal.de								secure match=.mx.srv.dfn.de:.tu-clausthal.de
+
 # states of germany
 .bayern.de										dane-only
 .berlin.de										encrypt
 .hessen.de										secure match=.hessen.de
 .niedersachsen.de								secure match=.niedersachsen.de
+
 # banks
 commerzbank.com									secure match=.commerzbank.com
 postbank.de										secure match=.postbank.de
 paypal.de										secure match=.paypalcorp.com
 paypal.com										secure match=.paypalcorp.com
+
 # insurances
 .aok.de											secure match=.aok.de
 barmer-gek.de									secure match=.t-systems.com
 tk.de											secure match=.tk.de
+
 # others
 bfr.bund.de										encrypt
 bmwi.bund.de									encrypt
